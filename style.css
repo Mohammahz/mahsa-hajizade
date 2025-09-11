@@ -1,0 +1,130 @@
+/* فونت زیبا و خوانا */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background: linear-gradient(135deg, #111, #222);
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  direction: rtl;
+}
+
+/* کانتینر اصلی */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* تیتر بسم الله */
+.bismillah {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #d4af37; /* طلایی */
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+/* تیتر نام */
+.mahsa {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 10px 0 30px;
+  font-weight: bold;
+}
+
+/* بخش‌ها */
+.intro-box, section {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  backdrop-filter: blur(6px);
+}
+
+/* عناوین */
+.intro-title, 
+.contact-title, 
+.other-sites-title {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #d4af37;
+  border-bottom: 2px solid #d4af37;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.skills {
+  background: #8c8c8c;
+  max-width: 830px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #2d2d2d;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.skills:hover {
+  transform: scale(1.03);
+  background: #0b0b0b;
+  color: #ffffff;
+}
+
+/* متن‌ها */
+p{
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+/* فوتر */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+/* افکت موسیقی */
+body::before {
+  content: "♪";
+  position: fixed;
+  font-size: 80px;
+  color: rgba(212, 175, 55, 0.08);
+  top: 20%;
+  left: 5%;
+  transform: rotate(-15deg);
+  pointer-events: none;
+}
+
+body::after {
+  content: "♫";
+  position: fixed;
+  font-size: 100px;
+  color: rgba(212, 175, 55, 0.08);
+  bottom: 15%;
+  right: 8%;
+  transform: rotate(15deg);
+  pointer-events: none;
+}
+
+/* ریسپانسیو */
+@media (max-width: 600px) {
+  .mahsa {
+    font-size: 2rem;
+  }
+  .intro-title, 
+  .contact-title, 
+  .other-sites-title {
+    font-size: 1.3rem;
+  }
+  body {
+    font-size: 0.9rem;
+  }
+}
