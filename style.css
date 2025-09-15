@@ -96,7 +96,7 @@ body::before {
   content: "♪";
   position: fixed;
   font-size: 80px;
-  color: rgba(212, 175, 55, 0.8);
+  color: #FFFFFF;
   top: 20%;
   left: 5%;
   transform: rotate(-15deg);
@@ -129,3 +129,4 @@ body::after {
   }
 
 }
+
