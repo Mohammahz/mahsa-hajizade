@@ -60,7 +60,7 @@ body {
 
 .skills {
   background: #8c8c8c;
-  max-width: 830px;
+  width: 98%;
   padding: 10px;
   border-radius: 10px;
   color: #2d2d2d;
@@ -92,11 +92,11 @@ footer {
 }
 
 /* افکت موسیقی */
-body::before {
+body::before { 
   content: "♪";
   position: fixed;
   font-size: 80px;
-  color: #FFFFFF;
+  color: rgba(229, 229, 229, 0.819);
   top: 20%;
   left: 5%;
   transform: rotate(-15deg);
@@ -107,7 +107,7 @@ body::after {
   content: "♫";
   position: fixed;
   font-size: 100px;
-  color: rgba(212, 175, 55, 0.8);
+  color: rgba(212, 175, 55, 0.978);
   bottom: 15%;
   right: 8%;
   transform: rotate(15deg);
@@ -127,6 +127,4 @@ body::after {
   body {
     font-size: 0.9rem;
   }
-
 }
-
